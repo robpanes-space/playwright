@@ -1,0 +1,14 @@
+{
+  "name": "ezwill-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright UI checks for ezwillandtrust.com create-your-will flow",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}
